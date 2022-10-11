@@ -1,13 +1,33 @@
-let pi = 3.1415;
-console.log(2*10*pi);
-console.log(2*5*pi);
-console.log(2*7*pi);
-console.log(2*8*pi);
-console.log(2*9*pi);
+let name = "Rafał";
+let lastName = "Konieczny";
+console.log(name + " " + lastName);
 
-let C = 299792458;
-console.log(C);
+name = "Jan";
+lastName = "Kowalski";
+console.log(name + " " + lastName);
 
-let M = 10;
-let E = M * C^2
-console.log(E)
+let person1 = {
+    name: "Rafał",
+    lastName: "Konieczny"
+};
+console.log(person1.name + " " + person1.lastName);
+
+let person2 = {
+    name: "Jan",
+    lastName: "Kowalski"
+};
+console.log(person2.name + " " + person2.lastName);
+
+let car1 = {
+    mark: "Honda",
+    model: "Civic",
+    productionYear: 1995
+}
+console.log(car1.mark + " " + car1.model + " " + " Rok produkcji: " + car1.productionYear)
+
+let car2 = {
+    mark: "Skoda",
+    model: "Kamiq",
+    productionYear: 2020
+}
+console.log(car2.mark + " " + car2.model + " " + " Rok produkcji: " + car2.productionYear)
